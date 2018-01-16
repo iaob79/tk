@@ -7,9 +7,9 @@ pipeline {
     
   }
   stages {
-    stage('error') {
+    stage('Build') {
       steps {
-        sh 'whoami'
+        sh 'npm install'
       }
     }
   }
